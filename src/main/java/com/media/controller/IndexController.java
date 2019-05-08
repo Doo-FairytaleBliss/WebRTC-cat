@@ -22,7 +22,7 @@ import com.media.storage.PersonalSessionStorage;
 
 @ServerEndpoint(value="/index")  
 public class IndexController {
-	
+	//
 	@OnOpen  
     public void open(Session session){  
 		String id = session.getId();//程序运行，用户进入主页，获取session的Id，id就是左上角的个人编号，id怎么生成的？
